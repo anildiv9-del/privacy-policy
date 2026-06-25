@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Account - PC Expert</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            color: #333;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 40px auto;
+            background: white;
+            border-radius: 12px;
+            padding: 40px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .logo {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .logo h1 {
+            color: #6B4EFF;
+            font-size: 28px;
+        }
+        .logo p {
+            color: #888;
+            font-size: 14px;
+        }
+        h2 {
+            color: #333;
+            margin-bottom: 15px;
+            font-size: 22px;
+        }
+        p {
+            color: #555;
+            line-height: 1.7;
+            margin-bottom: 15px;
+        }
+        .steps {
+            background: #f9f9f9;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .steps h3 {
+            color: #6B4EFF;
+            margin-bottom: 12px;
+        }
+        .step {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 12px;
+            gap: 12px;
+        }
+        .step-number {
+            background: #6B4EFF;
+            color: white;
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            flex-shrink: 0;
+        }
+        .step p { margin: 0; }
+        .warning {
+            background: #fff3f3;
+            border-left: 4px solid #ff4444;
+            padding: 15px;
+            border-radius: 4px;
+            margin: 20px 0;
+        }
+        .warning p { color: #cc0000; margin: 0; }
+        .contact {
+            background: #f0edff;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 20px;
+            text-align: center;
+        }
+        .contact a {
+            color: #6B4EFF;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .data-list {
+            list-style: none;
+            padding: 0;
+        }
+        .data-list li {
+            padding: 8px 0;
+            border-bottom: 1px solid #eee;
+            color: #555;
+        }
+        .data-list li:before {
+            content: "✓ ";
+            color: #6B4EFF;
+            font-weight: bold;
+        }
+        .deleted { color: #ff4444 !important; }
+        .deleted:before { content: "✗ "; color: #ff4444 !important; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <h1>PC Expert</h1>
+            <p>Remote PC Support App</p>
+        </div>
+
+        <h2>Delete Your Account</h2>
+        <p>We're sorry to see you go. You can delete your account directly from the app, or by contacting us via email.</p>
+
+        <div class="steps">
+            <h3>Option 1 — Delete from App (Recommended)</h3>
+            <div class="step">
+                <div class="step-number">1</div>
+                <p>Open the <strong>PC Expert</strong> app on your device</p>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <p>Go to <strong>Profile</strong> or <strong>Settings</strong></p>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <p>Tap <strong>"Delete Account"</strong> option</p>
+            </div>
+            <div class="step">
+                <div class="step-number">4</div>
+                <p>Confirm deletion — your account will be permanently deleted</p>
+            </div>
+        </div>
+
+        <div class="steps">
+            <h3>Option 2 — Request via Email</h3>
+            <div class="step">
+                <div class="step-number">1</div>
+                <p>Send an email to <strong>pc.expertapp@gmail.com</strong></p>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <p>Subject: <strong>Delete My Account Request</strong></p>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <p>Include your registered email address in the message</p>
+            </div>
+            <div class="step">
+                <div class="step-number">4</div>
+                <p>We will process your request within <strong>7 business days</strong></p>
+            </div>
+        </div>
+
+        <h2>What Data Gets Deleted</h2>
+        <ul class="data-list">
+            <li class="deleted">Your account and profile information</li>
+            <li class="deleted">Chat history and support tickets</li>
+            <li class="deleted">Points balance and transaction history</li>
+            <li class="deleted">All personal data stored in our systems</li>
+        </ul>
+
+        <div class="warning">
+            <p>⚠️ Account deletion is permanent and cannot be undone. Any unused points will be forfeited.</p>
+        </div>
+
+        <div class="contact">
+            <p>Need help? Contact us at</p>
+            <a href="mailto:pc.expertapp@gmail.com">pc.expertapp@gmail.com</a>
+        </div>
+    </div>
+</body>
+</html>
